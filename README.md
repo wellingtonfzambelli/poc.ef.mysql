@@ -23,7 +23,21 @@ This project is using code-first and database-first with .NET8 + EF Core + MySQL
 ![image](https://github.com/user-attachments/assets/c7effa2c-edd0-410c-b0c7-a836574375ac)
 ![image](https://github.com/user-attachments/assets/59a19eb9-bd3a-4e93-96b8-4a288afe84a6)
 
+# Commands to execute Database first
+1. Install Required Packages
+First, you need to install the required Entity Framework Core packages for MySQL.
+ - dotnet add package Pomelo.EntityFrameworkCore.MySql
+ - dotnet add package Microsoft.EntityFrameworkCore.Design
 
+2. Install EF Core Tools
+To use the dotnet ef commands, ensure that the Entity Framework Core tools are installed globally:
+ - dotnet tool install --global dotnet-ef
+If you already have the EF Core tools installed, update them to ensure compatibility with .NET 8:
+ - dotnet tool update --global dotnet-ef
+
+3. Scaffold MySQL Database into Models
+Use the dotnet ef dbcontext scaffold command to generate the entity classes and the DbContext from your MySQL database.
+- dotnet ef dbcontext scaffold "Server=poc.mysql;Database=classicmodels;User=myuser;Password=123;" Pomelo.EntityFrameworkCore.MySql -o Models -c MyDbContext
 
 # Models were generated from Database
 ![image](https://github.com/user-attachments/assets/1e47a7f6-3c79-4c0d-8876-c5a1787118ad)
