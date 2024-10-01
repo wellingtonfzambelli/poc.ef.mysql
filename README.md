@@ -13,5 +13,12 @@ Using code-first and database-first
 # docker-compose
 ![image](https://github.com/user-attachments/assets/834c9726-7ca1-4723-a32b-a280e95e0aeb)
 
+# docker containers running
+![image](https://github.com/user-attachments/assets/082abe68-eb39-4c24-b3f0-683b7f22259f)
+
+
 # Models were generated from Database
 ![image](https://github.com/user-attachments/assets/1e47a7f6-3c79-4c0d-8876-c5a1787118ad)
+
+![image](https://github.com/user-attachments/assets/a976c238-369d-428a-a8fc-267f0ef898c5)
+
