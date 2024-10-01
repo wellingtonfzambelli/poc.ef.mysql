@@ -1,6 +1,9 @@
 # poc.ef.mysql
 Using code-first and database-first
 
+
+############################## DATABASE FIRST ##############################
+
 # ER diagram
 ![image](https://github.com/user-attachments/assets/c36f18c6-7998-45a0-98df-122ef408a147)
 
@@ -15,6 +18,11 @@ Using code-first and database-first
 
 # docker containers running
 ![image](https://github.com/user-attachments/assets/082abe68-eb39-4c24-b3f0-683b7f22259f)
+
+# Adminer container running
+![image](https://github.com/user-attachments/assets/c7effa2c-edd0-410c-b0c7-a836574375ac)
+![image](https://github.com/user-attachments/assets/59a19eb9-bd3a-4e93-96b8-4a288afe84a6)
+
 
 
 # Models were generated from Database
