@@ -10,8 +10,8 @@ This project is using code-first and database-first with .NET8 + EF Core + MySQL
 # docker containers running
 ![image](https://github.com/user-attachments/assets/082abe68-eb39-4c24-b3f0-683b7f22259f)
 
-############################################################
-DATABASE FIRST
+
+# ------------- DATABASE FIRST ---------------
 ############################################################
 
 # ER diagram
