@@ -11,7 +11,7 @@ This project is using code-first and database-first with .NET8 + EF Core + MySQL
 ![image](https://github.com/user-attachments/assets/082abe68-eb39-4c24-b3f0-683b7f22259f)
 
 
-#                                    DATABASE FIRST 
+#_____________________DATABASE FIRST_____________________
 
 # ER diagram
 ![image](https://github.com/user-attachments/assets/c36f18c6-7998-45a0-98df-122ef408a147)
