@@ -58,8 +58,10 @@ Use the dotnet ef dbcontext scaffold command to generate the entity classes and 
 
 # Commands to execute Data-First (Migrations)
  - dotnet ef migrations add InitialCreate -c MyDbContext
+ - dotnet ef database update -c MyDbContext
 
 ![image](https://github.com/user-attachments/assets/74bb2cf6-30a7-443a-a3ba-ef6ec21dddde)
 ![image](https://github.com/user-attachments/assets/bf392659-f256-4c5b-af7d-cfb79b1fb6ae)
+![image](https://github.com/user-attachments/assets/b3953378-cb96-4d9b-8c7d-5298e0601a74)
 
 
