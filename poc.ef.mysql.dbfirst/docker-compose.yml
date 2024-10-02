@@ -1,0 +1,36 @@
+﻿services:
+  
+  # MYSQL SERVER
+  poc.mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: "classicmodels"
+      MYSQL_USER: "myuser"
+      MYSQL_ROOT_PASSWORD: "123"
+      MYSQL_PASSWORD: "123"
+    ports:
+      - "3316:3316"
+    # volumes:
+      - ./MysqlScript/volume-mysql:/var/lib/mysql
+      - ./MysqlScript/initial_script.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - mysql-compose-network
+
+
+  # ADMINER
+  poc.mysql.adminer:
+    image: adminer
+    ports:
+      - 8080:8080
+    networks:
+      - mysql-compose-network
+
+    #    Admire Auth
+    # Server: "poc.mysql"
+    # Username: "myuser"
+    # Password: "123"
+    # Database: "classicmodels"
+    
+networks: 
+  mysql-compose-network:
+    driver: bridge
