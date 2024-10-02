@@ -45,7 +45,7 @@ Use the dotnet ef dbcontext scaffold command to generate the entity classes and 
 ![image](https://github.com/user-attachments/assets/a976c238-369d-428a-a8fc-267f0ef898c5)
 
 
--------------------- CODE FIRST ----------------
+# -------------------- CODE FIRST ----------------
 
 # Setting up the EF Core on program.cs of a console application
 ![image](https://github.com/user-attachments/assets/e4d87bd5-7320-457c-ab15-e1a3d54a91ff)
