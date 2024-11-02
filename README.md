@@ -5,7 +5,6 @@ It showcases the flexibility of EF Core in managing database interactions, allow
 
 # Stacks of this project
 - .NET 8
-- Visual Studio 2022
 - Entity Framework Core
 - Migrations
 - Code First / Database First
@@ -14,6 +13,7 @@ It showcases the flexibility of EF Core in managing database interactions, allow
 - MySQL
 - Adminer
 - ERD _(Entity-Relationship Diagram)_
+- Visual Studio 2022
 
 # Dockerfile
 ![image](https://github.com/user-attachments/assets/267ce9e0-4eb0-41fc-83a4-ac95be89194d)
