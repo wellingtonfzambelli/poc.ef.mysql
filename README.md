@@ -5,6 +5,7 @@ It showcases the flexibility of EF Core in managing database interactions, allow
 
 # Stacks of this project
 - .NET 8
+- Visual Studio 2022
 - Entity Framework Core
 - Migrations
 - Code First / Database First
