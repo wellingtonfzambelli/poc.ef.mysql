@@ -1,6 +1,17 @@
 # poc.ef.mysql
 This project is using code-first and database-first with .NET8 + EF Core + MySQL
 
+# Stacks of this project
+- .NET 8
+- Entity Framework Core
+- Migrations
+- Code First / Database First
+- Fluent Api
+- Docker (Docker Compose)
+- MySQL
+- Adminer
+- ERD _(Entity-Relationship Diagram)_
+
 # Dockerfile
 ![image](https://github.com/user-attachments/assets/267ce9e0-4eb0-41fc-83a4-ac95be89194d)
 
