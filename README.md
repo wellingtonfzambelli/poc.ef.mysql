@@ -1,5 +1,7 @@
-# poc.ef.mysql
-This project is using code-first and database-first with .NET8 + EF Core + MySQL
+# About
+This project leverages both code-first and database-first approaches to develop a robust application using .NET 8, Entity Framework Core, and MySQL. 
+
+It showcases the flexibility of EF Core in managing database interactions, allowing for efficient migrations and schema management.
 
 # Stacks of this project
 - .NET 8
@@ -7,7 +9,7 @@ This project is using code-first and database-first with .NET8 + EF Core + MySQL
 - Migrations
 - Code First / Database First
 - Fluent Api
-- Docker (Docker Compose)
+- Docker _(Docker Compose)_
 - MySQL
 - Adminer
 - ERD _(Entity-Relationship Diagram)_
