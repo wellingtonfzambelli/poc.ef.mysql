@@ -23,4 +23,12 @@
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Projetos\poc.ef.mysql\poc.ef.mysql.codefirst\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Projetos\poc.ef.mysql\poc.ef.mysql.codefirst\.editorconfig" />
+  </ItemGroup>
+
 </Project>
